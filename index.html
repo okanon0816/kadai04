@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo List</title>
+    <!-- <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/themes/base/jquery-ui.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- todo<input type= "text" id="title">
+<button id="add" >add</button>
+<div id="view"></div> -->
+
+<div class="container m-3 p-4 shadow rounded">
+    <h2><i class="fas fa-child"></i> todos <i class="fas fa-child"></i></h2>
+    <div class="form-inline mb-3">
+        Date
+        <input class="box" id="key" type="date"><br>
+        <input type="text" class="form-control w-50" id="todo" placeholder="input todo..." />
+        <button class="btn btn-primary ml-2" id="save">save</button>
+        <button class="btn btn-danger ml-2" id="delete">delete all</button>
+    </div>
+    <ul class="list-group" id="list">
+    </ul>
+    <div id="veiwArea">
+        <!-- 結果を表示する -->
+    </div>
+    <table id="table"></table>
+
+  </div>
+
+
+
+<script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
